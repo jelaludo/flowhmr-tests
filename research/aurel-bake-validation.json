@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "clips": [
+    {
+      "id": "sumo-stomp-base-s0",
+      "frames": 218,
+      "stride": 67,
+      "bytes": 58424,
+      "sha256": "14d92ae8611e9eb4d834259f567e55ce80424e84a6516e6b4c243dcb0adc77f3",
+      "maxLengthError": 3.3306690738754696e-16
+    },
+    {
+      "id": "sumo-stomp-base-s1",
+      "frames": 218,
+      "stride": 67,
+      "bytes": 58424,
+      "sha256": "9dc3f000de79824116b9c1d4968d7d8e08fe9f21c4722f32e02e8f9487fa8b79",
+      "maxLengthError": 3.3306690738754696e-16
+    },
+    {
+      "id": "sumo-stomp-base-s2",
+      "frames": 218,
+      "stride": 67,
+      "bytes": 58424,
+      "sha256": "0aa913b5affcaaa6666e881359a1d5fe2393bdd55d71752a718bf15e493c551d",
+      "maxLengthError": 3.3306690738754696e-16
+    },
+    {
+      "id": "sumo-stomp-latest-s0",
+      "frames": 218,
+      "stride": 67,
+      "bytes": 58424,
+      "sha256": "ac96f179e9c194c00490b047fcbb34ef3473697a8e9ac8536afc49e7b86cd54c",
+      "maxLengthError": 3.3306690738754696e-16
+    },
+    {
+      "id": "sumo-stomp-latest-s1",
+      "frames": 218,
+      "stride": 67,
+      "bytes": 58424,
+      "sha256": "ad1715615a00e491ce8d5928871d121f2abe74d356147c38ffe2132c517b3d86",
+      "maxLengthError": 3.3306690738754696e-16
+    },
+    {
+      "id": "sumo-stomp-latest-s2",
+      "frames": 218,
+      "stride": 67,
+      "bytes": 58424,
+      "sha256": "cbda4c59fcb4f84b385ba759f375c64f5b6a99a72bafdd5ff37351747e77ce60",
+      "maxLengthError": 3.885780586188048e-16
+    },
+    {
+      "id": "technical-standup-base-s0",
+      "frames": 213,
+      "stride": 67,
+      "bytes": 57084,
+      "sha256": "cda047e5edf056035b5e9cd3110fbb884f0524701b8829bdaea0237cb2970e85",
+      "maxLengthError": 4.996003610813204e-16
+    },
+    {
+      "id": "technical-standup-base-s1",
+      "frames": 213,
+      "stride": 67,
+      "bytes": 57084,
+      "sha256": "b87ae9412e66f041f11d70be565872fc6e4d60a1bfa1ae0bf685e8e839404720",
+      "maxLengthError": 4.440892098500626e-16
+    },
+    {
+      "id": "technical-standup-base-s2",
+      "frames": 213,
+      "stride": 67,
+      "bytes": 57084,
+      "sha256": "9b9d14cdbec6ccb73fbb4491bd9af8a25e97c2aa21e3e632848fa631afba395b",
+      "maxLengthError": 4.440892098500626e-16
+    },
+    {
+      "id": "technical-standup-latest-s0",
+      "frames": 213,
+      "stride": 67,
+      "bytes": 57084,
+      "sha256": "b25d9da006fbd8365cd8caff383f590b8045a8d22e3d855be1ab218492830e85",
+      "maxLengthError": 4.440892098500626e-16
+    },
+    {
+      "id": "technical-standup-latest-s1",
+      "frames": 213,
+      "stride": 67,
+      "bytes": 57084,
+      "sha256": "c3ed120b7f45d093f9e2e754e03a19d52ec8d7dbccee0f8e94dc4c91b2de5e7e",
+      "maxLengthError": 3.885780586188048e-16
+    },
+    {
+      "id": "technical-standup-latest-s2",
+      "frames": 213,
+      "stride": 67,
+      "bytes": 57084,
+      "sha256": "b90cd3cbf3a71828022372ab665dd4f49e3c920dccfeed59555b6579fc58975b",
+      "maxLengthError": 4.440892098500626e-16
+    },
+    {
+      "id": "ukemi-base-s0",
+      "frames": 139,
+      "stride": 67,
+      "bytes": 37252,
+      "sha256": "38220e90fe52db990c56368645a8f09550fff000dfd6810bd56317963056f6a6",
+      "maxLengthError": 5.689893001203927e-16
+    },
+    {
+      "id": "ukemi-base-s1",
+      "frames": 139,
+      "stride": 67,
+      "bytes": 37252,
+      "sha256": "4c1fc04865bb6f3c057a87d29f9d3a477b59f1da3ff15e8852bd96e8ecfa1c88",
+      "maxLengthError": 5.134781488891349e-16
+    },
+    {
+      "id": "ukemi-base-s2",
+      "frames": 139,
+      "stride": 67,
+      "bytes": 37252,
+      "sha256": "d213bdd67311a13f6782e78b5b8dc715fc6fc543427919e816ba5309eaeee869",
+      "maxLengthError": 5.273559366969494e-16
+    },
+    {
+      "id": "ukemi-latest-s0",
+      "frames": 139,
+      "stride": 67,
+      "bytes": 37252,
+      "sha256": "08ea2d770e7477fa66b1d7c4ee266af26a4e7d3849e5da0d24f156239bfee63c",
+      "maxLengthError": 5.134781488891349e-16
+    },
+    {
+      "id": "ukemi-latest-s1",
+      "frames": 139,
+      "stride": 67,
+      "bytes": 37252,
+      "sha256": "be3aa9be16d44bc664e93102b64a5228ec5a733be4d52b9b8bdde181aae89927",
+      "maxLengthError": 4.85722573273506e-16
+    },
+    {
+      "id": "ukemi-latest-s2",
+      "frames": 139,
+      "stride": 67,
+      "bytes": 37252,
+      "sha256": "a5162652373f798c52d35b19fb9e530b08ff15c41e9a03206dcc7d4dfff4452a",
+      "maxLengthError": 4.440892098500626e-16
+    }
+  ],
+  "nativeDriverCount": 16,
+  "originalModelUnchanged": true
+}

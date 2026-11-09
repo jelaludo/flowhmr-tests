@@ -8,7 +8,7 @@ D.mkdir(exist_ok=True)
 for name in ['index.html','app.js','style.css','credits.html']:
     shutil.copy2(R/'src'/name,D/name)
 (D/'.nojekyll').write_text('')
-for name in ['test-status.json','source-index.json']:
+for name in ['test-status.json','source-index.json','local-clips.json']:
     shutil.copy2(R/'research'/name,D/name)
 if args.refresh_assets:
     K=R.parent/'Kimodo'

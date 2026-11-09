@@ -2,123 +2,253 @@
   "status": "passed",
   "checks": [
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "ukemi-base-s0",
+      "title": "Ukemi / base / seed 0",
+      "finite": true,
+      "attachment": 2.2215299868541707e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "ukemi-base-s1",
+      "title": "Ukemi / base / seed 1",
+      "finite": true,
+      "attachment": 2.2473876566261383e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "ukemi-base-s2",
+      "title": "Ukemi / base / seed 2",
+      "finite": true,
+      "attachment": 2.237726045655905e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "ukemi-latest-s0",
+      "title": "Ukemi / latest / seed 0",
+      "finite": true,
+      "attachment": 2.2591401799415137e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "ukemi-latest-s1",
+      "title": "Ukemi / latest / seed 1",
+      "finite": true,
+      "attachment": 2.435541875787129e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "ukemi-latest-s2",
+      "title": "Ukemi / latest / seed 2",
+      "finite": true,
+      "attachment": 2.3479724158959924e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "technical-standup-base-s0",
+      "title": "Technical stand-up / base / seed 0",
+      "finite": true,
+      "attachment": 2.5438405243138006e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "technical-standup-base-s1",
+      "title": "Technical stand-up / base / seed 1",
+      "finite": true,
+      "attachment": 2.830524433501838e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "technical-standup-base-s2",
+      "title": "Technical stand-up / base / seed 2",
+      "finite": true,
+      "attachment": 2.220446049250313e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "technical-standup-latest-s0",
+      "title": "Technical stand-up / latest / seed 0",
+      "finite": true,
+      "attachment": 2.5589376332604516e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "technical-standup-latest-s1",
+      "title": "Technical stand-up / latest / seed 1",
+      "finite": true,
+      "attachment": 1.942890293094024e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "technical-standup-latest-s2",
+      "title": "Technical stand-up / latest / seed 2",
+      "finite": true,
+      "attachment": 2.237726045655905e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "sumo-stomp-base-s0",
+      "title": "Sumo stomp / base / seed 0",
+      "finite": true,
+      "attachment": 3.416480523755681e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "sumo-stomp-base-s1",
+      "title": "Sumo stomp / base / seed 1",
+      "finite": true,
+      "attachment": 3.471007851958477e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "sumo-stomp-base-s2",
+      "title": "Sumo stomp / base / seed 2",
+      "finite": true,
+      "attachment": 3.764949453935611e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "sumo-stomp-latest-s0",
+      "title": "Sumo stomp / latest / seed 0",
+      "finite": true,
+      "attachment": 2.2824636907446024e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "sumo-stomp-latest-s1",
+      "title": "Sumo stomp / latest / seed 1",
+      "finite": true,
+      "attachment": 2.237726045655905e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
+      "id": "sumo-stomp-latest-s2",
+      "title": "Sumo stomp / latest / seed 2",
+      "finite": true,
+      "attachment": 2.622130794118103e-16
+    },
+    {
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c000",
       "title": "Beach dance",
       "finite": true,
       "attachment": 3.3306690738754696e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c001",
       "title": "Dance by an airplane",
       "finite": true,
       "attachment": 2.8031757299712627e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c002",
       "title": "Pop dance",
       "finite": true,
       "attachment": 2.237726045655905e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c003",
       "title": "Boxing",
       "finite": true,
       "attachment": 2.37549462997806e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c004",
       "title": "Yoga",
       "finite": true,
       "attachment": 2.830524433501838e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c005",
       "title": "Volleyball",
       "finite": true,
       "attachment": 2.3551386880256624e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c006",
       "title": "Pop dance IV",
       "finite": true,
       "attachment": 2.276126435504334e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c007",
       "title": "Pop dance II",
       "finite": true,
       "attachment": 2.237726045655905e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c008",
       "title": "Pop dance III",
       "finite": true,
       "attachment": 2.339755514347753e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c009",
       "title": "Tennis",
       "finite": true,
       "attachment": 2.3055512673781017e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c010",
       "title": "Badminton",
       "finite": true,
       "attachment": 2.220446049250313e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c011",
       "title": "Ballet",
       "finite": true,
       "attachment": 2.237726045655905e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c012",
       "title": "Soccer",
       "finite": true,
       "attachment": 2.2887833992611187e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c013",
       "title": "Soccer III",
       "finite": true,
       "attachment": 2.2887833992611187e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c014",
       "title": "Soccer II",
       "finite": true,
       "attachment": 2.3055512673781017e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c015",
       "title": "Push-up",
       "finite": true,
       "attachment": 3.356589068483857e-16
     },
     {
-      "name": "Published clip / five poses / muscle endpoints",
+      "name": "Clip / five poses / muscle endpoints",
       "id": "c016",
       "title": "Push-up II",
       "finite": true,
       "attachment": 2.306595211858756e-16
+    },
+    {
+      "name": "Base/latest comparison preserves source timestamp",
+      "passed": true
     },
     {
       "name": "Playback starts paused, advances and stops",
@@ -145,11 +275,15 @@
       "name": "Responsive layout",
       "width": 844,
       "height": 390
+    },
+    {
+      "name": "Local results work without upstream catalogue; PHC disabled",
+      "passed": true
     }
   ],
-  "completed_inference": 0,
-  "pending_inference": 18,
+  "completed_inference": 18,
+  "pending_inference": 0,
   "errors": [],
-  "scope": "Static project-subpath browser QA; not model inference or robot simulation.",
-  "runtime": "Chrome on Windows, pre-publication"
+  "scope": "35 playback clips / 175 sampled poses; independent inference completion is reported separately. No contact correction or robot simulation.",
+  "runtime": "Chrome on Windows, local review on8803"
 }

@@ -1,122 +1,230 @@
 {
   "schema": "flowhmr-public-test-status/1",
-  "updated": "2026-11-09T03:43:52.894570+00:00",
+  "updated": "2026-11-09T04:07:12.672072+00:00",
   "sam_access": "approved, downloaded, hash-verified and GPU smoke-tested",
-  "completed": 0,
-  "blocked": 18,
+  "completed": 18,
+  "blocked": 0,
   "failed": 0,
-  "reason": "SAM 3D Body is installed and its one-frame GPU feature check passed. Only the registered SMPL-H neutral model is still missing before our 18 matched-video runs can start.",
-  "missing": [
-    "Registered SMPL-H neutral body model"
-  ],
+  "reason": "All 18 local inference runs completed and passed finite-value, frame-count and output-hash checks. Choose our AUREL comparisons in the motion selector. Contact correction and robot physics have not been run.",
+  "missing": [],
   "runs": [
     {
       "case": "ukemi",
       "model": "flowhmr_base",
       "seed": 0,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 139,
+        "duration_s": 4.6,
+        "finite": true,
+        "output_sha256": "93d25d66c3c58449240f8b788496d5b204c8d4ce540ca2572041e832dee11115"
+      }
     },
     {
       "case": "ukemi",
       "model": "flowhmr_base",
       "seed": 1,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 139,
+        "duration_s": 4.6,
+        "finite": true,
+        "output_sha256": "3394e0886851ade054ead127b391ecef0d4949fbb93a11dd786d4532e53d7254"
+      }
     },
     {
       "case": "ukemi",
       "model": "flowhmr_base",
       "seed": 2,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 139,
+        "duration_s": 4.6,
+        "finite": true,
+        "output_sha256": "40acd42a132bef3d3ac6356e223f275028151b98c8e79d4d6914c899e0e0c06d"
+      }
     },
     {
       "case": "ukemi",
       "model": "flowhmr_latest",
       "seed": 0,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 139,
+        "duration_s": 4.6,
+        "finite": true,
+        "output_sha256": "d6e5f4ce7b1ebd6aee5e4b75255c5f911c154b8bb73aa68ada3ec5acee87c1a6"
+      }
     },
     {
       "case": "ukemi",
       "model": "flowhmr_latest",
       "seed": 1,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 139,
+        "duration_s": 4.6,
+        "finite": true,
+        "output_sha256": "47157c4704de71ba085dcfcdda3849c25900f8f26f60e283564db5145c20b17a"
+      }
     },
     {
       "case": "ukemi",
       "model": "flowhmr_latest",
       "seed": 2,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 139,
+        "duration_s": 4.6,
+        "finite": true,
+        "output_sha256": "fde1741e756037a2fd838bed620f1af91023aa537d75fba355665161bf7be80b"
+      }
     },
     {
       "case": "technical-standup",
       "model": "flowhmr_base",
       "seed": 0,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 213,
+        "duration_s": 7.066666666666666,
+        "finite": true,
+        "output_sha256": "fe122bec1573621e8cd782694a44ca77726abb3bb5a37997ae73826284db4a7e"
+      }
     },
     {
       "case": "technical-standup",
       "model": "flowhmr_base",
       "seed": 1,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 213,
+        "duration_s": 7.066666666666666,
+        "finite": true,
+        "output_sha256": "1f4fb8d9500699a0a972d1042b11eb1d88a815945a180f286819c8e80a211b91"
+      }
     },
     {
       "case": "technical-standup",
       "model": "flowhmr_base",
       "seed": 2,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 213,
+        "duration_s": 7.066666666666666,
+        "finite": true,
+        "output_sha256": "a675cef929cb2f5e6c886998a1e969aca789dc84dd3ee26366f5761361039cfe"
+      }
     },
     {
       "case": "technical-standup",
       "model": "flowhmr_latest",
       "seed": 0,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 213,
+        "duration_s": 7.066666666666666,
+        "finite": true,
+        "output_sha256": "a871d23047aa0930ced8ac4310f8959bbff2a05286f6ac7d014632ee8a123f63"
+      }
     },
     {
       "case": "technical-standup",
       "model": "flowhmr_latest",
       "seed": 1,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 213,
+        "duration_s": 7.066666666666666,
+        "finite": true,
+        "output_sha256": "6d4f34c1da0029c97060c63b460dcc12c9f5f7628ad0ddad19f0a0a00628cd44"
+      }
     },
     {
       "case": "technical-standup",
       "model": "flowhmr_latest",
       "seed": 2,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 213,
+        "duration_s": 7.066666666666666,
+        "finite": true,
+        "output_sha256": "da646ba9f304ca9a80da155367f87c9942d946aa5c71cae3738021a4e5bcfe2f"
+      }
     },
     {
       "case": "sumo-stomp",
       "model": "flowhmr_base",
       "seed": 0,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 218,
+        "duration_s": 7.233333333333333,
+        "finite": true,
+        "output_sha256": "8ae242355a504ec414baaafcd6adb13fdaa5db27931a27c575031a215f30a333"
+      }
     },
     {
       "case": "sumo-stomp",
       "model": "flowhmr_base",
       "seed": 1,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 218,
+        "duration_s": 7.233333333333333,
+        "finite": true,
+        "output_sha256": "ccbffaaadf981b75d68bc8fc2d9505ef268ecf87c6c79d35bc919f707668fa58"
+      }
     },
     {
       "case": "sumo-stomp",
       "model": "flowhmr_base",
       "seed": 2,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 218,
+        "duration_s": 7.233333333333333,
+        "finite": true,
+        "output_sha256": "e92b7bdf52af73f06426421088941b3e73fa0a44a68517edc445c509b6ac88ae"
+      }
     },
     {
       "case": "sumo-stomp",
       "model": "flowhmr_latest",
       "seed": 0,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 218,
+        "duration_s": 7.233333333333333,
+        "finite": true,
+        "output_sha256": "a86048a385223c8db33e285c683f99819e8bfbf20859031de4cc02eca0ad78e6"
+      }
     },
     {
       "case": "sumo-stomp",
       "model": "flowhmr_latest",
       "seed": 1,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 218,
+        "duration_s": 7.233333333333333,
+        "finite": true,
+        "output_sha256": "96066a489da58ddeb4e58bdc69a774187c9e0bdda7891b238bb0baa48b94f26c"
+      }
     },
     {
       "case": "sumo-stomp",
       "model": "flowhmr_latest",
       "seed": 2,
-      "status": "blocked"
+      "status": "completed",
+      "validation": {
+        "frames": 218,
+        "duration_s": 7.233333333333333,
+        "finite": true,
+        "output_sha256": "076b85820aa0ce881009dc067e0c5d2f7544833e127d6babc994b0c6a4fa9485"
+      }
     }
-  ]
+  ],
+  "smplh_access": "Official AMASS 16-beta neutral model installed and validated locally",
+  "pending": 0
 }

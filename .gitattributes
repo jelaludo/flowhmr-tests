@@ -3,3 +3,4 @@
 docs/owned/** -text
 docs/vendor/** -text
 docs/gt3/** -text
+docs/results/*.bin -text
