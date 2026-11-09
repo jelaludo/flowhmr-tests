@@ -1,0 +1,14 @@
+{
+  "checked": "2026-11-09",
+  "scope": "Practical license reading for this research pipeline, not a determination of all output rights in every jurisdiction.",
+  "source_recordings": "The creator states that these are self-recordings. Using a research model does not by itself transfer ownership of those original videos. Third-party music, filming agreements and other rights are separate.",
+  "flowhmr": {
+    "license": "https://huggingface.co/fafsaf1/flowhmr-0.46B/blob/1eb105e554e0cfc1846ea5feac8c2d516a36d319/LICENSE",
+    "scope": "Model weights; non-commercial educational, research and nonprofit use. It does not expressly settle the licensing of every generated output."
+  },
+  "smplh": {
+    "license": "https://mano.is.tue.mpg.de/license.html",
+    "scope": "Research/education/non-commercial artistic use; commercial uses including production of commercial artifacts are restricted."
+  },
+  "commercial_reuse": "Do not assume that owning an input video supplies commercial clearance for the current generated takes. Obtain applicable permissions/clarification or regenerate from the originals with a commercially permitted pipeline. Retargeting or changing file format alone does not establish clearance."
+}

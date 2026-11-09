@@ -1,5 +1,9 @@
-AUREL-03 robot geometry, rig, muscle artwork and baked native motion data
+AUREL-03 original robot geometry, rig and muscle artwork
 Copyright jelaludo / Model Workshop. All rights reserved.
 Included with the owner's authorization for this public non-commercial feedback viewer.
 No additional rights to the robot artwork are granted by the Apache code license.
 Original assembly: https://jelaludo.github.io/SentryTowers_A6/robot-assembly/
+
+Native animation files are research outputs generated with FlowHMR, SAM 3D Body and SMPL-H.
+The Apache code license does not grant commercial-use permissions for third-party models or their use.
+Your original source recordings remain separate from these generated research files.

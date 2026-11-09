@@ -6,7 +6,7 @@
   "source": "https://sketchfab.com/3d-models/2022-porsche-911-gt3-touring-992-a76364a3d50c4d78912a28250cb57be5",
   "license": "CC-BY-NC-SA-4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "changes": "Static parts merged by material; normalized to about 4.57m length; Gentian Blue Metallic #002B6C paint; Ddiaz 2022 front/rear plates; simplified variants and sampled collision surface.",
+  "changes": "Static parts merged by material; normalized to about 4.57m length; Gentian Blue Metallic #002B6C paint; black #111317 wheels; Ddiaz 2022 front/rear plates; simplified variants and sampled collision surface.",
   "purpose": "Local noncommercial biped-animation experiments; no endorsement implied.",
   "source_sha256": "77d8f5808ccc3be08806a8576a2eac45ce38239b42373b17c9541bdf9310a7ee",
   "source_bytes": 16769964,
@@ -66,26 +66,26 @@
     {
       "tier": "full",
       "file": "gt3-full.glb",
-      "bytes": 11834508,
+      "bytes": 11308760,
       "triangles": 238379,
       "draw_primitives": 20,
-      "sha256": "91ca68378d93fa2b4200f0fa53fd7438cfafc2bffadfce616af06a96d742cd7f"
+      "sha256": "871c75b015c5eb9c4cc9df3eaddf74ad22cb0d79ca77637cde1ef3e11140d2f3"
     },
     {
       "tier": "balanced",
       "file": "gt3-balanced.glb",
-      "bytes": 8015484,
+      "bytes": 7723356,
       "triangles": 133584,
       "draw_primitives": 20,
-      "sha256": "e5b79674e3f913f24db5e9f224afdff163a60a033e3fc3f899d1646b518685fa"
+      "sha256": "3292ec90f868ba12bfeb060ef6a7a10d255c1a5db15e8d35cc1ee90fbb1354c5"
     },
     {
       "tier": "lite",
       "file": "gt3-lite.glb",
-      "bytes": 4608732,
+      "bytes": 4457880,
       "triangles": 62313,
       "draw_primitives": 20,
-      "sha256": "de43cef80a3f394732f0da51273359420da39ec6c78c2c6b1ce498779c28945a"
+      "sha256": "2b11e323689d68ec5d1a8a965748b4bfad5d8ca2cbcc2782634579a1ab1c7e51"
     }
   ],
   "collision": "collision.json"

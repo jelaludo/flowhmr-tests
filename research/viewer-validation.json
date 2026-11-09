@@ -2,6 +2,19 @@
   "status": "passed",
   "checks": [
     {
+      "name": "Blue GT3 background, black wheel material and no gold texture",
+      "colors": {
+        "paint": "002b6c",
+        "wheels": "111317",
+        "goldTexture": false
+      },
+      "position": [
+        -3.1,
+        0,
+        -3.4
+      ]
+    },
+    {
       "name": "Clip / five poses / muscle endpoints",
       "id": "ukemi-base-s0",
       "title": "Ukemi / base / seed 0",
@@ -247,6 +260,54 @@
       "attachment": 2.306595211858756e-16
     },
     {
+      "name": "Continuous visits all 35 clips in order and wraps to first",
+      "clips": [
+        "ukemi-base-s0",
+        "ukemi-base-s1",
+        "ukemi-base-s2",
+        "ukemi-latest-s0",
+        "ukemi-latest-s1",
+        "ukemi-latest-s2",
+        "technical-standup-base-s0",
+        "technical-standup-base-s1",
+        "technical-standup-base-s2",
+        "technical-standup-latest-s0",
+        "technical-standup-latest-s1",
+        "technical-standup-latest-s2",
+        "sumo-stomp-base-s0",
+        "sumo-stomp-base-s1",
+        "sumo-stomp-base-s2",
+        "sumo-stomp-latest-s0",
+        "sumo-stomp-latest-s1",
+        "sumo-stomp-latest-s2",
+        "c000",
+        "c001",
+        "c002",
+        "c003",
+        "c004",
+        "c005",
+        "c006",
+        "c007",
+        "c008",
+        "c009",
+        "c010",
+        "c011",
+        "c012",
+        "c013",
+        "c014",
+        "c015",
+        "c016"
+      ]
+    },
+    {
+      "name": "Pause during pending load, resume, and continuous toggle off",
+      "passed": true
+    },
+    {
+      "name": "Manual clip choice exits continuous playback",
+      "passed": true
+    },
+    {
       "name": "Base/latest comparison preserves source timestamp",
       "passed": true
     },
@@ -255,7 +316,7 @@
       "passed": true
     },
     {
-      "name": "Lazy GT3 and all three rendering modes",
+      "name": "GT3 and all three rendering modes",
       "passed": true
     },
     {
@@ -284,6 +345,5 @@
   "completed_inference": 18,
   "pending_inference": 0,
   "errors": [],
-  "scope": "35 playback clips / 175 sampled poses; independent inference completion is reported separately. No contact correction or robot simulation.",
-  "runtime": "Chrome on Windows, local review on8803"
+  "scope": "Playback, complete continuous playlist cycle, async pause safety, background car materials and rig checks; no robot dynamics claim."
 }

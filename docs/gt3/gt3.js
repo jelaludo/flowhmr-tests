@@ -28,12 +28,15 @@ export function createGT3(scene,{renderer,position=[-6,0,0],yaw=Math.PI,baseURL=
    if(name.includes('Paint_Material')){
     const params={name:'Gentian_Blue_Metallic_002B6C',color:'#002B6C',metalness:.55,roughness:.27,envMap:environment,envMapIntensity:.55};
     mesh.material=next==='lite'?new T.MeshStandardMaterial(params):new T.MeshPhysicalMaterial({...params,clearcoat:.75,clearcoatRoughness:.16,specularIntensity:.4,iridescence:.015,iridescenceIOR:1.25,iridescenceThicknessRange:[150,220]});mesh.material.userData.paint_srgb='#002B6C';
+   }else if(name.includes('Wheel')){
+    mesh.material=new T.MeshStandardMaterial({name:'GT3_Black_Wheels_111317',color:'#111317',metalness:.65,roughness:.33,normalMap:original.normalMap,normalScale:original.normalScale,envMap:environment,envMapIntensity:.45});
+    mesh.material.userData.wheels_srgb='#111317';
    }else if(name.includes('Window_Material')){
     mesh.material=next==='full'?new T.MeshPhysicalMaterial({name,color:'#b6c5d6',metalness:0,roughness:.08,transmission:.9,thickness:.006,ior:1.5,envMap:environment,side:T.DoubleSide}):new T.MeshStandardMaterial({name,color:'#4b5e72',metalness:.15,roughness:.16,transparent:true,opacity:.34,envMap:environment,side:T.DoubleSide,depthWrite:false});
    }else if(name==='RED_GLASS')mesh.material=new T.MeshStandardMaterial({name,color:'#9b0921',emissive:'#270007',roughness:.21,metalness:.15,envMap:environment});
    else{original.envMap=environment;original.envMapIntensity=.65}
   });
-  if(asset){group.remove(asset);dispose(asset)}asset=nextAsset;group.add(asset);mode=next;api.stats={...entry,meshes,paint_srgb:'#002B6C',plate:'Ddiaz 2022',glass:next==='full'?'physical transmission':'blended tint',paint:next==='lite'?'standard metallic':'physical metallic + clearcoat'};group.updateMatrixWorld(true);api.onChange?.();
+  if(asset){group.remove(asset);dispose(asset)}asset=nextAsset;group.add(asset);mode=next;api.stats={...entry,meshes,paint_srgb:'#002B6C',wheels_srgb:'#111317',plate:'Ddiaz 2022',glass:next==='full'?'physical transmission':'blended tint',paint:next==='lite'?'standard metallic':'physical metallic + clearcoat'};group.updateMatrixWorld(true);api.onChange?.();
  }
  const api={group,get asset(){return asset},get manifest(){return manifest},get field(){return field},get obstacle(){return obstacle},get quality(){return mode},get debug(){return debug},stats:null,
   heightAt,intersectsCapsule,contains(x,z){return heightAt(x,z)!==null},supportHeight,setQuality,setDebug(show){if(debug)debug.visible=!!show},onChange:null};
