@@ -1,0 +1,92 @@
+{
+  "schema": "ddiaz-gt3-lab/1",
+  "title": "2022 Porsche 911 GT3 Touring (992)",
+  "author": "Ddiaz Design",
+  "author_url": "https://sketchfab.com/ddiaz-design",
+  "source": "https://sketchfab.com/3d-models/2022-porsche-911-gt3-touring-992-a76364a3d50c4d78912a28250cb57be5",
+  "license": "CC-BY-NC-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "changes": "Static parts merged by material; normalized to about 4.57m length; Gentian Blue Metallic #002B6C paint; Ddiaz 2022 front/rear plates; simplified variants and sampled collision surface.",
+  "purpose": "Local noncommercial biped-animation experiments; no endorsement implied.",
+  "source_sha256": "77d8f5808ccc3be08806a8576a2eac45ce38239b42373b17c9541bdf9310a7ee",
+  "source_bytes": 16769964,
+  "source_meshes": 1664,
+  "source_triangles": 238024,
+  "paint_srgb": "#002B6C",
+  "paint_linear_rgb": [
+    0.0,
+    0.024157632448504756,
+    0.14995978981060856
+  ],
+  "paint_metalness": 0.55,
+  "paint_roughness": 0.27,
+  "paint_clearcoat": 0.75,
+  "normalization": {
+    "target_length_m": 4.57,
+    "source_blender_bounds": [
+      [
+        -0.010135258547961712,
+        -0.022508833557367325,
+        -2.651623435667716e-05
+      ],
+      [
+        0.010135258547961712,
+        0.02330859564244747,
+        0.012912299484014511
+      ]
+    ],
+    "scale_factor": 99.7437019015129
+  },
+  "dimensions_m": {
+    "width": 2.0218563079833984,
+    "length": 4.55839204788208,
+    "height": 1.2847254276275635
+  },
+  "plates": [
+    {
+      "side": "front",
+      "text": "Ddiaz 2022",
+      "position_blender_z_up_m": [
+        0.0,
+        -2.274921417236328,
+        0.46000000834465027
+      ]
+    },
+    {
+      "side": "rear",
+      "text": "Ddiaz 2022",
+      "position_blender_z_up_m": [
+        0.0,
+        2.2546586990356445,
+        0.46000000834465027
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "tier": "full",
+      "file": "gt3-full.glb",
+      "bytes": 11834508,
+      "triangles": 238379,
+      "draw_primitives": 20,
+      "sha256": "91ca68378d93fa2b4200f0fa53fd7438cfafc2bffadfce616af06a96d742cd7f"
+    },
+    {
+      "tier": "balanced",
+      "file": "gt3-balanced.glb",
+      "bytes": 8015484,
+      "triangles": 133584,
+      "draw_primitives": 20,
+      "sha256": "e5b79674e3f913f24db5e9f224afdff163a60a033e3fc3f899d1646b518685fa"
+    },
+    {
+      "tier": "lite",
+      "file": "gt3-lite.glb",
+      "bytes": 4608732,
+      "triangles": 62313,
+      "draw_primitives": 20,
+      "sha256": "de43cef80a3f394732f0da51273359420da39ec6c78c2c6b1ce498779c28945a"
+    }
+  ],
+  "collision": "collision.json"
+}

@@ -1,0 +1,123 @@
+{
+  "schema": "flowhmr-public-test-status/1",
+  "updated": "2026-11-09T03:13:30.082276+00:00",
+  "sam_access": "approved by owner; local authentication/download pending",
+  "completed": 0,
+  "blocked": 18,
+  "failed": 0,
+  "reason": "SAM 3D Body access is approved. Authorized downloads and the SMPL-H neutral body model are still needed locally before our 18 matched-video runs can start.",
+  "missing": [
+    "Local Hugging Face authentication and approved SAM files",
+    "Registered SMPL-H neutral body model"
+  ],
+  "runs": [
+    {
+      "case": "ukemi",
+      "model": "flowhmr_base",
+      "seed": 0,
+      "status": "blocked"
+    },
+    {
+      "case": "ukemi",
+      "model": "flowhmr_base",
+      "seed": 1,
+      "status": "blocked"
+    },
+    {
+      "case": "ukemi",
+      "model": "flowhmr_base",
+      "seed": 2,
+      "status": "blocked"
+    },
+    {
+      "case": "ukemi",
+      "model": "flowhmr_latest",
+      "seed": 0,
+      "status": "blocked"
+    },
+    {
+      "case": "ukemi",
+      "model": "flowhmr_latest",
+      "seed": 1,
+      "status": "blocked"
+    },
+    {
+      "case": "ukemi",
+      "model": "flowhmr_latest",
+      "seed": 2,
+      "status": "blocked"
+    },
+    {
+      "case": "technical-standup",
+      "model": "flowhmr_base",
+      "seed": 0,
+      "status": "blocked"
+    },
+    {
+      "case": "technical-standup",
+      "model": "flowhmr_base",
+      "seed": 1,
+      "status": "blocked"
+    },
+    {
+      "case": "technical-standup",
+      "model": "flowhmr_base",
+      "seed": 2,
+      "status": "blocked"
+    },
+    {
+      "case": "technical-standup",
+      "model": "flowhmr_latest",
+      "seed": 0,
+      "status": "blocked"
+    },
+    {
+      "case": "technical-standup",
+      "model": "flowhmr_latest",
+      "seed": 1,
+      "status": "blocked"
+    },
+    {
+      "case": "technical-standup",
+      "model": "flowhmr_latest",
+      "seed": 2,
+      "status": "blocked"
+    },
+    {
+      "case": "sumo-stomp",
+      "model": "flowhmr_base",
+      "seed": 0,
+      "status": "blocked"
+    },
+    {
+      "case": "sumo-stomp",
+      "model": "flowhmr_base",
+      "seed": 1,
+      "status": "blocked"
+    },
+    {
+      "case": "sumo-stomp",
+      "model": "flowhmr_base",
+      "seed": 2,
+      "status": "blocked"
+    },
+    {
+      "case": "sumo-stomp",
+      "model": "flowhmr_latest",
+      "seed": 0,
+      "status": "blocked"
+    },
+    {
+      "case": "sumo-stomp",
+      "model": "flowhmr_latest",
+      "seed": 1,
+      "status": "blocked"
+    },
+    {
+      "case": "sumo-stomp",
+      "model": "flowhmr_latest",
+      "seed": 2,
+      "status": "blocked"
+    }
+  ]
+}

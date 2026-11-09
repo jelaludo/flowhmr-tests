@@ -1,0 +1,16 @@
+FlowHMR tests / AUREL-03
+Copyright 2026 jelaludo.
+
+Independent non-commercial evaluation and feedback project.
+Not the official FlowHMR implementation or an endorsement by its authors.
+
+FlowHMR: Zhanke Wang and collaborators.
+https://github.com/flowhmr/flowhmr
+https://flowhmr.github.io/
+Published reference animations are fetched from the original project.
+No additional rights to those animations are granted by this repository.
+
+AUREL-03 artwork: jelaludo / Model Workshop. All rights reserved.
+GT3 artwork/adaptations: CC BY-NC-SA 4.0; see LICENSES/GT3.txt.
+Three.js: MIT; see LICENSES/THREE.txt.
+These asset terms are separate from the Apache license on viewer/test code.

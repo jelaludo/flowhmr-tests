@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.glb -text
+docs/owned/** -text
+docs/vendor/** -text
+docs/gt3/** -text

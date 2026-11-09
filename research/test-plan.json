@@ -1,0 +1,162 @@
+{
+  "schema": "flowhmr-public-test-plan/1",
+  "code_commit": "87ebb483ce9da32be72c67971bc8fd76f27251f3",
+  "source_fps": 30,
+  "shared_target": "AUREL-03 native rig",
+  "physics": "Separate Linux Isaac Gym arm; no robot simulation completed here",
+  "cases": [
+    {
+      "id": "ukemi",
+      "video_sha256": "14938dbf21397b14d8b8567d2fecdc6b007610d554674a309a60455cf87eec34",
+      "baseline_engine": "GEM-X",
+      "baseline_representation": "SOMA77",
+      "baseline_sha256": "71fcfb7168d336220142a4a5cfbf05fbde9d3f70cd8fc5dcd3c6eff9e4a874d8",
+      "runs": [
+        {
+          "model": "flowhmr_base",
+          "seed": 0,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_base",
+          "seed": 1,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_base",
+          "seed": 2,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_latest",
+          "seed": 0,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_latest",
+          "seed": 1,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_latest",
+          "seed": 2,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        }
+      ]
+    },
+    {
+      "id": "technical-standup",
+      "video_sha256": "438c4e3a8697ce732c66bf6ad8bb5fef4cc491a98c8f96daf9c55241d85b9a4c",
+      "baseline_engine": "GEM-X",
+      "baseline_representation": "SOMA77",
+      "baseline_sha256": "007686fb73bfc479e1cefa3b902b1fa5d08c7d1e531b3580c61c48459e9e2100",
+      "runs": [
+        {
+          "model": "flowhmr_base",
+          "seed": 0,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_base",
+          "seed": 1,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_base",
+          "seed": 2,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_latest",
+          "seed": 0,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_latest",
+          "seed": 1,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_latest",
+          "seed": 2,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        }
+      ]
+    },
+    {
+      "id": "sumo-stomp",
+      "video_sha256": "5a8a1c125f6ba4e08a8feade79cf3e5c3cb104721385abbd2dc1f90b872bfe06",
+      "baseline_engine": "GEM-X",
+      "baseline_representation": "SOMA77",
+      "baseline_sha256": "7799e08d5d715acdb427e3531e119db9940afe5d2b78f08542b23fbd0e1eb7ea",
+      "runs": [
+        {
+          "model": "flowhmr_base",
+          "seed": 0,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_base",
+          "seed": 1,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_base",
+          "seed": 2,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_latest",
+          "seed": 0,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_latest",
+          "seed": 1,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        },
+        {
+          "model": "flowhmr_latest",
+          "seed": 2,
+          "static_camera": true,
+          "sampling_steps": 20,
+          "postprocess": false
+        }
+      ]
+    }
+  ]
+}

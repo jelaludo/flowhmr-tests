@@ -1,0 +1,10 @@
+2022 Porsche 911 GT3 Touring (992) by Ddiaz Design
+https://sketchfab.com/ddiaz-design
+https://sketchfab.com/3d-models/2022-porsche-911-gt3-touring-992-a76364a3d50c4d78912a28250cb57be5
+CC Attribution-NonCommercial-ShareAlike 4.0
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Changes: Static parts merged by material; normalized to about 4.57m length; Gentian Blue Metallic #002B6C paint; Ddiaz 2022 front/rear plates; simplified variants and sampled collision surface.
+
+Local noncommercial biped-animation experiments; no endorsement implied.
+Car derivatives retain CC-BY-NC-SA-4.0; other lab assets retain their own terms.

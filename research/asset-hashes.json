@@ -1,0 +1,82 @@
+{
+  "owned/aurel.glb": {
+    "bytes": 1749504,
+    "sha256": "062022f45542736a6cd614b151d6739dcba7b3987d40605cf3e7a96e5f9fb2fd"
+  },
+  "vendor/three/three.module.js": {
+    "bytes": 1272972,
+    "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+  },
+  "gt3/gt3.js": {
+    "bytes": 7031,
+    "sha256": "fdcaccee3dae4177fd0c7b5c3456b0946bec8f917b7cf2adacb8134b43f5a6de"
+  },
+  "owned/assets/robot-assembly/animation-kit/character.js": {
+    "bytes": 1415,
+    "sha256": "b60a48de445967519419d080b90437986bbbfd21cd23c6ef6d18edde37db61a9"
+  },
+  "owned/assets/robot-assembly/runtime.js": {
+    "bytes": 2869,
+    "sha256": "6908563a084818a003df46fa0d90f817dbb7965f9fac130d2e89c98629fb709e"
+  },
+  "owned/assets/robot-assembly/muscles/runtime.js": {
+    "bytes": 2829,
+    "sha256": "3c217da56377642938aa92c35f5808ff3339f54c250b60d65b3546f7523a36af"
+  },
+  "owned/assets/robot-assembly/muscles/specs.js": {
+    "bytes": 5074,
+    "sha256": "53181285079bea26e349868d9838144b2c20e75cc1a0585500077ea3f30c1946"
+  },
+  "owned/assets/foot-lab/runtime.js": {
+    "bytes": 7441,
+    "sha256": "e0ae5159038ce75f0146ff7f37ba45d7ba8c89929a318b3bc81ac254e5209b01"
+  },
+  "owned/assets/hand-lab/runtime.js": {
+    "bytes": 4731,
+    "sha256": "84f77f2c1396576967cf1698688e33f465654291249f7151ea562ac3373e416e"
+  },
+  "owned/assets/hand-lab/biped.js": {
+    "bytes": 603,
+    "sha256": "98d5be1e49ee1f87824bf810096209fde69b452d3e5382e71e0796674d46e096"
+  },
+  "vendor/three/addons/loaders/GLTFLoader.js": {
+    "bytes": 108522,
+    "sha256": "d073b438e6a07e1359741dd5d6c76c953420cc0d4fd84eb1bdde94315540e6a3"
+  },
+  "vendor/three/addons/controls/OrbitControls.js": {
+    "bytes": 29868,
+    "sha256": "5a44a9e86a2a0fb11933eed69bc2cd33c76a496854c1aed6ed776efa87d7b064"
+  },
+  "vendor/three/addons/environments/RoomEnvironment.js": {
+    "bytes": 3735,
+    "sha256": "e21f41b7ef2016f2984a5d27850b42dffa797a6a194a138e288b06576d765a7b"
+  },
+  "vendor/three/addons/utils/BufferGeometryUtils.js": {
+    "bytes": 31906,
+    "sha256": "9be041e96308775d00e2695cc607645b9a9b64fd7c0e759dd8f7c00a8d92becb"
+  },
+  "gt3/gt3-full.glb": {
+    "bytes": 11834508,
+    "sha256": "91ca68378d93fa2b4200f0fa53fd7438cfafc2bffadfce616af06a96d742cd7f"
+  },
+  "gt3/gt3-balanced.glb": {
+    "bytes": 8015484,
+    "sha256": "e5b79674e3f913f24db5e9f224afdff163a60a033e3fc3f899d1646b518685fa"
+  },
+  "gt3/gt3-lite.glb": {
+    "bytes": 4608732,
+    "sha256": "de43cef80a3f394732f0da51273359420da39ec6c78c2c6b1ce498779c28945a"
+  },
+  "gt3/manifest.json": {
+    "bytes": 2708,
+    "sha256": "e8ffddc8bc3036cce585323aa4d695aa0192ea4a5cad34505e67f1b67a6b2192"
+  },
+  "gt3/collision.json": {
+    "bytes": 48879,
+    "sha256": "2b33fd8ac16ce9e22c50d35c6ce1ce7a876120bebbe66a49a5d9bcbbb9ca46c0"
+  },
+  "gt3/CREDITS.txt": {
+    "bytes": 639,
+    "sha256": "72656a5de84ba3867efa209dba0f0b08d642b17e1479561e2d44b854553966e5"
+  }
+}

@@ -1,0 +1,5 @@
+AUREL-03 robot geometry, rig and muscle artwork
+Copyright jelaludo / Model Workshop. All rights reserved.
+Included with the owner's authorization for this public non-commercial feedback viewer.
+No additional rights to the robot artwork are granted by the Apache code license.
+Original assembly: https://jelaludo.github.io/SentryTowers_A6/robot-assembly/

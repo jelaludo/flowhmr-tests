@@ -1,0 +1,126 @@
+{
+  "schema": "flowhmr-published-sources/1",
+  "catalogue_url": "https://flowhmr.github.io/assets/viewer/manifest.json",
+  "policy": "Fetch published motion binaries directly from the original project; do not rehost human bodies or reference videos.",
+  "clips": [
+    {
+      "id": "c000",
+      "title": "Beach dance",
+      "version": "68cc2dc63d",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c000.bin?v=68cc2dc63d",
+      "sha256": "254b516ed89c00c2483e057e4529cdc3451f438a7ce583278d94ea7c8a6bad04"
+    },
+    {
+      "id": "c001",
+      "title": "Dance by an airplane",
+      "version": "68a384cf8b",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c001.bin?v=68a384cf8b",
+      "sha256": "89d1a86effc155c755f80df78bb27afff23af5e55d096d2f5505550fecd7f080"
+    },
+    {
+      "id": "c002",
+      "title": "Pop dance",
+      "version": "50eca9a709",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c002.bin?v=50eca9a709",
+      "sha256": "ce9146ad82e00494c60ccfd09f3b0f3c5dce45caeecc8ee35745306ead8ffe9b"
+    },
+    {
+      "id": "c003",
+      "title": "Boxing",
+      "version": "5e8771a8a8",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c003.bin?v=5e8771a8a8",
+      "sha256": "65c042ec8268fb49ab844339636aa90acd19b29adb1b3085930b82964d862f60"
+    },
+    {
+      "id": "c004",
+      "title": "Yoga",
+      "version": "c66465f4c1",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c004.bin?v=c66465f4c1",
+      "sha256": "a127e9bb4ab24f49c125c8eba266178400f132d916c254e8b925e9493a9463a1"
+    },
+    {
+      "id": "c005",
+      "title": "Volleyball",
+      "version": "2c956b70d1",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c005.bin?v=2c956b70d1",
+      "sha256": "75e7a95f9469805d559751e50e498460f5cba88db48e6c347c101b05addfd53d"
+    },
+    {
+      "id": "c006",
+      "title": "Pop dance IV",
+      "version": "ad962c17b9",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c006.bin?v=ad962c17b9",
+      "sha256": "d2ca2df905d6608481eac6c177b2ff438cf78254cc1b4042ee75de585649310f"
+    },
+    {
+      "id": "c007",
+      "title": "Pop dance II",
+      "version": "5718d3b2a1",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c007.bin?v=5718d3b2a1",
+      "sha256": "2eddcc9c4537f5bd796533593610bb2e8f0826728aab7fe55010803286581b73"
+    },
+    {
+      "id": "c008",
+      "title": "Pop dance III",
+      "version": "e3203d916e",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c008.bin?v=e3203d916e",
+      "sha256": "803cc2104a78e9f164daab618c2cc3e82078f90d2a1985fc4206ece4fdca3cfb"
+    },
+    {
+      "id": "c009",
+      "title": "Tennis",
+      "version": "0f3c24c015",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c009.bin?v=0f3c24c015",
+      "sha256": "d37f6c3b4452e1019fe626b2c8f7e6089d4f0748bdbf8f7c1a52c1363deacaff"
+    },
+    {
+      "id": "c010",
+      "title": "Badminton",
+      "version": "7b174d1843",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c010.bin?v=7b174d1843",
+      "sha256": "74e17a6e7ee64a63090296a4d9e483074dc7c8c3e652d9075331849df1f60a60"
+    },
+    {
+      "id": "c011",
+      "title": "Ballet",
+      "version": "d7f3d4fcd4",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c011.bin?v=d7f3d4fcd4",
+      "sha256": "c20972e12f37fddaad70cba05df46a1049dced719d84be35b1e6d1fdd7ed6750"
+    },
+    {
+      "id": "c012",
+      "title": "Soccer",
+      "version": "0afb242100",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c012.bin?v=0afb242100",
+      "sha256": "f1c7e171d0bb0ea88a0cab477e4a158f2531b812bae5e225e26f6a5339cfe703"
+    },
+    {
+      "id": "c013",
+      "title": "Soccer III",
+      "version": "3901ca4ca3",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c013.bin?v=3901ca4ca3",
+      "sha256": "4476b5071a96a65bcd9936d4bec3982b81e97e105d466a05c55fcadc0ff5e53a"
+    },
+    {
+      "id": "c014",
+      "title": "Soccer II",
+      "version": "734ca5d3a2",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c014.bin?v=734ca5d3a2",
+      "sha256": "e4fd0ce56219dd17eeb22620d21ac46f7597654b45ba2b8b22fe7de5efb6ff97"
+    },
+    {
+      "id": "c015",
+      "title": "Push-up",
+      "version": "edfa0cb61d",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c015.bin?v=edfa0cb61d",
+      "sha256": "1036c8ac2cf9bf1513ff8a80c964872a54b5778b93fdaaf5b9ee1f9017facaec"
+    },
+    {
+      "id": "c016",
+      "title": "Push-up II",
+      "version": "00f4c268b7",
+      "url": "https://flowhmr.github.io/assets/viewer/clips/c016.bin?v=00f4c268b7",
+      "sha256": "e3706a50d491c130595ad09d27e018eb680962509ca6d8826b0c2e9db603d862"
+    }
+  ]
+}
