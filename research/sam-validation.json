@@ -1,0 +1,17 @@
+{
+  "scope": "SAM installation and one-frame feature extraction only; no FlowHMR motion recovery or robot simulation.",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "input_video_sha256": "14938dbf21397b14d8b8567d2fecdc6b007610d554674a309a60455cf87eec34",
+  "status": "passed",
+  "frame_index": 0,
+  "feature_shape": [
+    1,
+    3072
+  ],
+  "feature_dtype": "torch.float32",
+  "feature_norm": 53.99956130981445,
+  "peak_allocated_mib": 3500.83837890625,
+  "seconds": 17.474212099972647,
+  "sam_revision": "11aaa346c7204874a1cbafe3d39a979080b2c55a",
+  "timing_scope": "Local cold model startup, detector and one-frame feature check together; not a FlowHMR recovery benchmark."
+}

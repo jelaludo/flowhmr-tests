@@ -12,7 +12,7 @@ Pause at an interesting moment and choose **Copy this view link**. The link pres
 
 The 17 examples are the authors’ published results. Our page performs a kinematic retarget; it does not run FlowHMR inference or simulate AUREL in the browser.
 
-Our separate local comparison plan uses three original videos (ukemi, technical stand-up and sumo stomp), base/latest checkpoints and seeds 0/1/2: **18 runs**. SAM 3D Body access has been approved, but local authentication/downloads and the registered SMPL-H neutral model are still needed. **0 of these 18 inference runs are completed** at initial publication. See [the status snapshot](research/test-status.json) and [the matched-input plan](research/test-plan.json).
+Our separate local comparison plan uses three original videos (ukemi, technical stand-up and sumo stomp), base/latest checkpoints and seeds 0/1/2: **18 runs**. SAM 3D Body is downloaded and hash-verified, and its GPU check passed on the RTX 4090: one input frame produced finite `(1, 3072)` body/hand conditioning features. This is a component check, not a completed FlowHMR recovery. Only the registered SMPL-H neutral model is still missing. See [the SAM validation](research/sam-validation.json). **0 of these 18 inference runs are completed** at initial publication. See [the status snapshot](research/test-status.json) and [the matched-input plan](research/test-plan.json).
 
 The official implementation is pinned locally at `87ebb483ce9da32be72c67971bc8fd76f27251f3`. The base/latest comparison comes before any separate correction or Linux Isaac Gym/PHC experiment. Published PHC human tracking does not establish this custom robot’s balance or contact quality.
 
